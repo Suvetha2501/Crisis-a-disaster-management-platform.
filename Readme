@@ -1,0 +1,19 @@
+# Cautious Resq Ready Now
+
+This repository stores the blueprints and prompts for the **Cautious Resq Ready Now** application built on Base44.
+
+**App URL:** [https://cautious-resq-ready-now.base44.app](https://cautious-resq-ready-now.base44.app)
+
+## 📋 App Blueprint & Core Prompts
+
+### Master Generation Prompt
+> Paste the exact primary text/prompt you used in Base44 to generate this app here. E.g., "Build a search and rescue coordination application with real-time status updates..."
+
+### Pages & Structure
+* **Dashboard:** Home screen displaying recent requests and active rescues.
+* **Request Form:** Allows users to log incident locations and urgency levels.
+* **Admin panel:** For dispatching teams and updating ticket status.
+
+## 🛠️ Data Model / Schema
+* **Incidents Table:** `id`, `location`, `status` (Pending, Active, Resolved), `reported_by`, `timestamp`.
+* **Rescuers Table:** `id`, `name`, `availability`, `assigned_incident_id`.
